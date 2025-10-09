@@ -94,7 +94,7 @@ export default function LostPaymentPage() {
         {previewUrl && (
           <div className="slip-preview">
             <p>📷 ตัวอย่างสลิป:</p>
-            <img src={previewUrl} alt="slip preview" />
+            <Image src={previewUrl} alt="slip preview" />
           </div>
         )}
 

@@ -104,7 +104,7 @@ export default function EditBikePage() {
           <input type="file" accept="image/*" onChange={handleFileChange} />
           {(previewUrl || form.Image) && (
             <div style={{ marginTop: '1rem' }}>
-              <img
+              <Image
                 src={previewUrl || form.Image}
                 alt="Bike"
                 width="200"
